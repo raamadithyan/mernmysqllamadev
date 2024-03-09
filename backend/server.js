@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
 
 app.post("/books", (req, res) => {
 	const q = "INSERT INTO books (`title`,`desc`,`cover`) VALUES (?)";
-	const value = ["Leena", "mycutie", "heart.jpg"];
+	const value = ["Mahethra", "mycutietoo", "heart.jpg"];
 
 	db.query(q, [value], (err, data) => {
 		if (err) {
