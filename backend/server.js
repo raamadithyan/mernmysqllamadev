@@ -5,10 +5,6 @@ const app = express();
 app.use(express.json());
 
 const db = mysql.createConnection({
-	// host: "raamadithyan-mysql-db.a.aivencloud.com",
-	// user: "avnadmin",
-	// password: "AVNS_-NCTKXchy-enj7jMELw",
-	// database: "users",
 	host: "localhost",
 	user: "root",
 	password: "willpower",
